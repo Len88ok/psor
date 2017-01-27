@@ -1,0 +1,84 @@
+body p{
+	font-size: 16px;
+}
+
+.block{
+	&-heading{
+		position: relative;
+	  padding-bottom: 15px;
+    margin-bottom: 50px;
+		&:before {
+		  content: "";
+		  position: absolute;
+		  bottom: -4px;
+		  left: 50%;
+		  margin-left: -4px;
+		  width: 8px;
+		  height: 8px;
+		  border-radius: 50%;
+		  background: #EE6247;
+		  z-index: 2;
+		}
+		&:after {
+		  content: "";
+		  position: absolute;
+		  bottom: -2px;
+		  left: 50%;
+		  margin-left: -8%;
+		  width: 16%;
+		  height: 4px;
+		  background: #0462C6;
+		}
+	}
+}
+
+section.results{
+	padding: 2em 0;
+	img{
+		margin-top: -50px;
+	}
+}
+
+section .try{	
+	&-item{
+		font-size: 20px;
+		padding: 0 40px;
+	}
+}
+
+section .to-buy{
+	&-heading{
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+}
+
+.table-bordered.prices{
+	background: #fff;
+}
+
+#ps-carousel-feedback .carousel-inner.feedbacks>.item {
+		height: 310px;
+		padding: 0 5px;
+}
+#ps-carousel-feedback{
+	margin-bottom: 30px;
+}
+
+#regions_chart{
+	width: 90%;
+	margin: -10px auto 0;
+}
+
+section .clients-info{
+
+}
+
+
+
+
+
+
+
