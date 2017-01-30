@@ -9078,7 +9078,9 @@ section.medicine {
 }
 
 section:not(.feedbacks):nth-child(even) {
-    background-color: #eaeaea
+    background-color: #eaeaea;
+    background-image: url(../images/bg44.png);
+    background-repeat: repeat;
 }
 
 section:not(:last-of-type(2)) {
