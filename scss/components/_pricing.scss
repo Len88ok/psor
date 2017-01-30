@@ -1,0 +1,31 @@
+.price{
+	&-wrap{
+		position: relative;
+		img{
+			width: 100%;
+			vertical-align: bottom;
+		}
+	}
+	&-caption{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 100%;
+	margin-left:-50%; 
+	}
+	&-weight{
+		&1{font-size: 14px;}
+		&2{font-size: 18px;}
+		&3{font-size: 24px;}
+	}
+	&-size{
+		&1{font-size: 14px;}
+		&2{font-size: 18px;}
+		&3{font-size: 24px;}
+	}
+	span{
+		font-weight: 700;
+		color: #0462C6;
+	}
+
+}

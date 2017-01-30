@@ -116,5 +116,40 @@ section .to-buy-heading {
   font-weight: 700;
   color: #000; }
 
+.price-wrap {
+  position: relative; }
+  .price-wrap img {
+    width: 100%;
+    vertical-align: bottom; }
+
+.price-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 100%;
+  margin-left: -50%; }
+
+.price-weight1 {
+  font-size: 14px; }
+
+.price-weight2 {
+  font-size: 18px; }
+
+.price-weight3 {
+  font-size: 24px; }
+
+.price-size1 {
+  font-size: 14px; }
+
+.price-size2 {
+  font-size: 18px; }
+
+.price-size3 {
+  font-size: 24px; }
+
+.price span {
+  font-weight: 700;
+  color: #0462C6; }
+
 #footer {
   background: #213047; }
