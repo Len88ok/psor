@@ -76,6 +76,15 @@ section .clients-info{
 
 }
 
+section .certificate{
+	&-bg{
+	background-image: url("../images/Doctor.png");
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-position: 0 50%;}
+}
+
+
 
 
 
